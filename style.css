@@ -437,6 +437,7 @@
     
     .footer__nav {
         margin-bottom: 79px;
+        flex: 1;
     }
     
     .footer__nav-list {
@@ -445,7 +446,7 @@
     }
     
     .footer__nav-item:not(:last-child) {
-        margin-bottom: 17px;
+        margin-bottom: 15px;
     }
     
     .footer__nav-item:nth-child(4) {
@@ -693,5 +694,9 @@
         }
         .footer__conteudo-item:not(:last-child) {
             margin-bottom: 6px;
+        }
+        .footer__nav-list {
+            column-count: 2;
+            list-style: none;
         }
     }
